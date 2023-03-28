@@ -1,1 +1,0 @@
-import{k as a,q as r}from"./index.2c7c5b43.js";import{a as o}from"./index.2cf0d985.js";function u(){return a(r)}const s=o.create({baseURL:"http://localhost:3000/api",headers:{"Content-Type":"application/json"}});s.interceptors.request.use(function(t){let e=JSON.parse(localStorage.getItem("auth/user"));return e&&(e=e.token),t.headers.Authorization=e?`${e}`:"",t});export{s as A,u};

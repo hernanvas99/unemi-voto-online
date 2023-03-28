@@ -1,0 +1,1 @@
+import{u}from"./auth-user.43655eae.js";const d=()=>{const s=u();return{encontrarPermisosId:(r,t)=>{const e=[];return r.value.forEach(i=>{t.forEach(n=>{n.children.forEach(a=>{a.children.find(o=>{o.label==i&&e.push(o.id)})})})}),e},validarPermisos:r=>!!(s.permisos!==null&&s.permisos.includes(r))}};export{d as u};

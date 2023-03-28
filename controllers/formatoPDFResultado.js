@@ -18,18 +18,19 @@ const plantilla = ( candidatos, ganador ) => {
       </style>
   </head>
   <body>
-    <table style="width: 500px;">
+    <table style="width: 640px;">
       <tr>
         <td style="width: 50px; text-align:center">
           <img 
-            style="position:relative; left: 25px"
+            style="position:relative; left: 115px"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/UNEMI-logo.jpg/800px-UNEMI-logo.jpg"
             width="115px" height="120px" >
         </td>
-        <td style="width: 210px; margin-bottom: 25px; text-align:center;">
+        <td style="width: 310px; margin-bottom: 25px;margin-left: 15px;text-align:center;">
           <label style="position: relative; bottom: 12px; color: #2657a6">
             UNIVERSIDAD ESTATAL DE MILAGRO
           </label>
+          <br>
           <label style="position: relative; bottom: 10px; font-size: 13px">
             VC64+6CQ, Milagro
           </label>
@@ -45,7 +46,7 @@ const plantilla = ( candidatos, ganador ) => {
       </tr>
     </table>
 
-    <table style="margin-top: 30px; width: 440px; margin-left: 49px" border="1">
+    <table style="margin-top: 30px; width: 540px; margin-left: 70px" border="1">
       <tr style="text-align: center">
         <td style="font-size: 12px;font-weight: 700;">
           CANDIDATOS
@@ -126,11 +127,11 @@ const noVotaronPlantilla = ( estudiantes, eleccion, tipo_reporte ) => {
       </style>
   </head>
   <body>
-    <table style="width: 500px;">
+    <table style="width: 600px;">
       <tr>
         <td style="width: 50px; text-align:center">
           <img 
-            style="position:relative; left: 25px"
+            style="position:relative; left:95px"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/UNEMI-logo.jpg/800px-UNEMI-logo.jpg"
             width="115px" height="120px" >
         </td>
@@ -138,6 +139,7 @@ const noVotaronPlantilla = ( estudiantes, eleccion, tipo_reporte ) => {
           <label style="position: relative; bottom: 12px; color: #2657a6">
             UNIVERSIDAD ESTATAL DE MILAGRO
           </label>
+          <br>
           <label style="position: relative; bottom: 10px; font-size: 13px">
             VC64+6CQ, Milagro
           </label>
@@ -153,7 +155,7 @@ const noVotaronPlantilla = ( estudiantes, eleccion, tipo_reporte ) => {
       </tr>
     </table>
 
-    <table style="margin-top: 15px; width: 480px; margin-left: 29px">
+    <table style="margin-top: 15px; width: 480px; margin-left: 99px">
       <tr style="text-align: center">
         <td style="font-size: 13px;font-weight: 700;">
         ${ tipo_reporte == 'Estudiantes que no votaron' ? 
@@ -166,7 +168,7 @@ const noVotaronPlantilla = ( estudiantes, eleccion, tipo_reporte ) => {
       </tr>
     </table>
 
-    <table style="margin-top: 20px; width: 480px; margin-left: 29px" border="1">
+    <table style="margin-top: 20px; width: 480px; margin-left: 110px" border="1">
       <tr style="text-align: center">
         <td style="font-size: 12px;font-weight: 700;">
           ESTUDIANTES

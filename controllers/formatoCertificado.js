@@ -17,11 +17,11 @@ const plantilla = ( req ) => {
       </style>
   </head>
   <body>
-    <table style="width: 500px; margin-top: 30px">
+    <table style="width: 600px; margin-top: 30px">
       <tr>
         <td style="width: 50px; text-align:center">
           <img 
-            style="position:relative; left: 25px"
+            style="position:relative; left: 95px"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/UNEMI-logo.jpg/800px-UNEMI-logo.jpg"
             width="115px" height="120px" >
         </td>
@@ -29,6 +29,7 @@ const plantilla = ( req ) => {
           <label style="position: relative; bottom: 12px; color: #2657a6">
             UNIVERSIDAD ESTATAL DE MILAGRO
           </label>
+          <br>
           <label style="position: relative; bottom: 10px; font-size: 13px">
             VC64+6CQ, Milagro
           </label>
@@ -44,7 +45,7 @@ const plantilla = ( req ) => {
       </tr>
     </table>
 
-    <table style="margin-top: 30px; width: 440px; margin-left: 49px">
+    <table style="margin-top: 30px; width: 440px; margin-left: 129px">
       <tr style="text-align: center">
         <td style="font-size: 14px;font-weight: 700;">
           CERTIFICADO DE PARTICIPACIÓN EN LAS VOTACIONES ELECTRONICAS DEL CONSEJO ESTUDIANTIL DE LA UNEMI
@@ -52,7 +53,7 @@ const plantilla = ( req ) => {
       </tr>
     </table>
 
-    <table style="margin-top: 10px; width: 420px; margin-left: 59px">
+    <table style="margin-top: 10px; width: 420px; margin-left: 119px">
       <tr style="text-align: left">
         <td style="font-size: 12px;text-align: justify">
           <br>
@@ -72,7 +73,7 @@ const plantilla = ( req ) => {
       </tr>
     </table>
 
-    <table style="margin-top: 23px; width: 470px; margin-left: 10px">
+    <table style="margin-top: 23px; width: 470px; margin-left: 20px">
       <tr style="text-align: right">
         <td style="font-size: 13px;">
           <label style="font-weight: 700;">

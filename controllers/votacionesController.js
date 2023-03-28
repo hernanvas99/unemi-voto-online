@@ -100,7 +100,7 @@ const agregarVoto = async( req, res = response ) => {
 const enviarCorreo = async ( email, asunto, mensaje, res, req ) => {
     const config = {
         host: 'smtp.gmail.com', port: 587,
-        auth: { user: 'juan63sn@gmail.com', pass: 'yogrirrvmgqfxvti' }
+        auth: { user: 'hvasconezm@unemi.edu.ec', pass: 'scfvppxtzaegxcez' }
     }
 
     var contenido = plantilla( req.body );
@@ -113,7 +113,7 @@ const enviarCorreo = async ( email, asunto, mensaje, res, req ) => {
             console.log(err);
         } else {
             const message = {
-                from: 'farmatuahorro@gmail.com',
+                from: 'hvasconezm@unemi.edu.ec',
                 to: email,
                 subject: asunto,
                 text: mensaje,
